@@ -1,0 +1,34 @@
+ /* element selector */
+ h1{
+    color: red;
+    text-align: center;
+}
+b{
+    color: rgb(14, 57, 175);
+    font-size: large;
+    font-style: italic;
+}
+/* id selector used for same types of elements and we want differnt properties for each one of them*/
+#go{
+    color: rgb(5, 173, 27);
+    font-size: large;
+    font-style: oblique;
+}
+#gone{
+    color: rgb(5, 1, 36);
+    font-style: italic;
+}
+/* class selector is used for different types of elements and we want to use same properties to all */
+.home{
+    color: tomato;
+    padding: auto;
+    font-style: italic;
+}
+/* group selector is also used to apply same properties to different elements 
+but difference between class and group is 
+class apply to only those which have class keyword
+group apply to all the elements in a file. */
+h4,b,large{
+    color: green;
+    font-style: italic;
+}

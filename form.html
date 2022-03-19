@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 style="color: cyan;">Registration form</h1>
+    <hr>
+    <form >
+    <fieldset>
+        <legend>Personal information</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" placeholder="FIRST NAME" required><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="LAST NAME" required><br><br>
+        <label >Gender:</label><br>
+        <input type="radio" name="gender" id="gender" value="Male" >
+        <label for="gender">Male</label><br>
+        <input type="radio" name="gender" id="gender" value="Female" >
+        <label for="gender">Female</label><br>
+        <input type="radio" name="gender" id="gender" value="Other" >
+        <label for="gender">Other</label><br>
+    </fieldset><br>
+    <label >Department:</label>
+    <select>
+        <option value="mtech">M Tech</option>
+        <option value="msc">MSC</option>
+        <option value="mca">MCA</option>
+        <option value="mba">MBA</option>
+        <option value="mcom">MCOM</option>
+    </select><br><br>
+    <label for="address"><b>Current address:</b></label>
+    <textarea name="address" id="address" cols="80" rows="5" placeholder=" Type here your current address" required></textarea><br><br>
+    <label for="no"><b>Phone no:</b></label>
+    <input type="text" name="phone" id="no" value="+91" size="2" >
+    <input type="tel" name="phone" id="no" placeholder="1234-4567890" required><br><br>
+    <label for="no"><b>Email:</b></label>
+    <input type="email" name="email" id="no" placeholder="Enter your email" required><br><br>
+    <label for="pwd"><b>Password:</b></label>
+    <input type="password" name="pass" id="pwd" placeholder="Enter password" required><br><br>
+    <label for="repwd"><b>Re-Password:</b></label>
+    <input type="password" name="pass" id="repwd" placeholder="Confirm password" required><br><br>
+    <button type="submit">Registration</button>
+    <button type="reset">Reset</button>
+</form>
+</body>
+</html>
